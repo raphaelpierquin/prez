@@ -1,0 +1,17 @@
+.title {
+	width: 900px;
+	height: 350px;
+	margin: auto;
+	padding-top: 250px;
+
+	border: 2px dashed darkGray;
+  -moz-border-radius:7px;
+  -khtml-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+
+	font-family: helvetica, impact, sans-serif;
+	font-size: 30pt;
+	text-align: center;
+
+}
