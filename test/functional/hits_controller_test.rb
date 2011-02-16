@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class HitControllerTest < ActionController::TestCase
+class HitsControllerTest < ActionController::TestCase
 
   def test_can_create_a_hit
     assert_difference "Hit.count", +1 do

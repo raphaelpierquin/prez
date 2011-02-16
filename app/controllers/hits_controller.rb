@@ -1,4 +1,4 @@
-class HitController < ApplicationController
+class HitsController < ApplicationController
   
   def create
     Hit.create! :timestamp => DateTime.now

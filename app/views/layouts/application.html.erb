@@ -6,9 +6,17 @@
 	<%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js' %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
+	<script language="JavaScript">
+		Event.observe(window, 'load', function() {
+			recordHit();
+	  });
+		function recordHit() {
+			new Ajax.Request('<%= hits_path %>', { method: 'post' } );
+		}
+	</script>
 </head>
 <body>
-
+	
 <%= yield %>
 
 </body>
