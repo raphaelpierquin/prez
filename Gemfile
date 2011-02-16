@@ -2,5 +2,3 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.4'
 gem 'sqlite3'
 gem 'ZenTest'
-gem 'test_notifier'
-
